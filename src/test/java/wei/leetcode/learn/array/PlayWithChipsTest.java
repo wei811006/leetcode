@@ -30,6 +30,6 @@ class PlayWithChipsTest {
 
         int result = playWithChips.minCostToMoveChips(chips);
 
-        assertThat(check).isEqualTo(result);
+        assertThat(result).isEqualTo(check);
     }
 }

@@ -24,6 +24,6 @@ class SplitAStringInBalancedStringsTest {
     void balancedStringSplit(String s, int check) {
         int result = splitAStringInBalancedStrings.balancedStringSplit(s);
 
-        assertThat(check).isEqualTo(result);
+        assertThat(result).isEqualTo(check);
     }
 }

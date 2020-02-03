@@ -36,6 +36,6 @@ class TransposeMatrixTest {
 
         int[][] result = transposeMatrix.transpose(a);
 
-        assertThat(check).isEqualTo(result);
+        assertThat(result).isEqualTo(check);
     }
 }

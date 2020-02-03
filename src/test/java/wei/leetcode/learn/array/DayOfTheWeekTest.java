@@ -23,6 +23,6 @@ class DayOfTheWeekTest {
     void dayOfTheWeek(int day, int month, int year, String check) {
         String answer = dayOfTheWeek.dayOfTheWeek(day, month, year);
 
-        assertThat(check).isEqualTo(answer);
+        assertThat(answer).isEqualTo(check);
     }
 }

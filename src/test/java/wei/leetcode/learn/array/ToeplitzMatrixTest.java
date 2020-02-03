@@ -36,6 +36,6 @@ class ToeplitzMatrixTest {
 
         boolean result = toeplitzMatrix.isToeplitzMatrix(matrix);
 
-        assertThat(check).isEqualTo(result);
+        assertThat(result).isEqualTo(check);
     }
 }

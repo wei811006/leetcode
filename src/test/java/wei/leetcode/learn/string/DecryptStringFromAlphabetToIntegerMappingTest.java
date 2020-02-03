@@ -25,6 +25,6 @@ class DecryptStringFromAlphabetToIntegerMappingTest {
     void freqAlphabets(String s, String check) {
         String result = decryptStringFromAlphabetToIntegerMapping.freqAlphabets(s);
 
-        assertThat(check).isEqualTo(result);
+        assertThat(result).isEqualTo(check);
     }
 }
