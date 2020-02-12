@@ -1,5 +1,6 @@
 package wei.leetcode.learn.contest175;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -16,6 +17,7 @@ class TweetCountsPerFrequencyTest {
     private TweetCounts tweetCounts;
 
     @Test
+    @Disabled
     public void test1() {
         tweetCounts.recordTweet("tweet3", 0);
         tweetCounts.recordTweet("tweet3", 60);
