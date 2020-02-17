@@ -26,7 +26,7 @@ import org.springframework.stereotype.Component;
 public class DivisorGame {
 
     public boolean divisorGame(int N) {
-        return N % 2 == 0 ? true : false;
+        return (N & 1 ) == 0;
     }
 
 }
