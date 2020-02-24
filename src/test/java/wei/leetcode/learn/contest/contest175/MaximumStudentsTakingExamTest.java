@@ -1,4 +1,4 @@
-package wei.leetcode.learn.contest175;
+package wei.leetcode.learn.contest.contest175;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.extension.ExtendWith;

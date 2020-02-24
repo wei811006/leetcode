@@ -1,4 +1,4 @@
-package wei.leetcode.learn.contest175;
+package wei.leetcode.learn.contest.contest175;
 
 import org.springframework.stereotype.Component;
 
