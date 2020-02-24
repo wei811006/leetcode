@@ -2,8 +2,6 @@ package wei.leetcode.learn.stack;
 
 import org.springframework.stereotype.Component;
 
-import java.util.Stack;
-
 /**
  * 1021 Remove Outermost Parentheses.
  *
